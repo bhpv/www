@@ -1,10 +1,27 @@
+
 <!doctype html>
-<html lang="{{ site.lang | default: 'en' }}">
-{% include head.html %}
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/assets/css/style.css">
+{% seo %}
+</head>
 <body>
-  {% include header.html %}
-  {{ content }}
-  {% include footer.html %}
-  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+<header class="site-header">
+  <a class="brand" href="/">
+    <img src="/assets/images/logo.png" alt="B.H. Photo and Videos Logo">
+    <span>B.H. Photo and Videos</span>
+  </a>
+</header>
+
+<main>{{ content }}</main>
+
+<footer class="site-footer">
+  <div class="footer-brand">
+    <img src="/assets/images/logo.png" alt="B.H. Photo and Videos Logo">
+    <span>B.H. Photo and Videos</span>
+  </div>
+</footer>
 </body>
 </html>
