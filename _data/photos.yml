@@ -1,0 +1,72 @@
+- title: Lakeside Morning
+  category: travel
+  category_label: Travel
+  image: https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80
+  large_image: https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=80
+  alt: Sunlit cabin by a lake
+- title: After Hours
+  category: street
+  category_label: Street
+  image: https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1200&q=80
+  large_image: https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1800&q=80
+  alt: City street at night
+- title: Green Corridor
+  category: nature
+  category_label: Nature
+  image: https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80
+  large_image: https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1800&q=80
+  alt: Forest path with tall trees
+- title: Working Light
+  category: editorial
+  category_label: Editorial
+  image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80
+  large_image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1800&q=80
+  alt: Bright editorial workspace
+- title: Blue Margin
+  category: travel
+  category_label: Travel
+  image: https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80
+  large_image: https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=80
+  alt: Ocean shoreline from above
+- title: High Country
+  category: nature
+  category_label: Nature
+  image: https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80
+  large_image: https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1800&q=80
+  alt: Mountain landscape
+- title: Quiet Block
+  category: street
+  category_label: Street
+  image: https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80
+  large_image: https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1800&q=80
+  alt: Residential street and house exterior
+- title: Desk Notes
+  category: editorial
+  category_label: Editorial
+  image: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80
+  large_image: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1800&q=80
+  alt: Laptop on a clean desk
+- title: Long Road
+  category: travel
+  category_label: Travel
+  image: https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80
+  large_image: https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1800&q=80
+  alt: Open landscape with sunset
+- title: Still Water
+  category: nature
+  category_label: Nature
+  image: https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=1200&q=80
+  large_image: https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=1800&q=80
+  alt: Lake surrounded by mountains
+- title: Angles
+  category: street
+  category_label: Street
+  image: https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=80
+  large_image: https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1800&q=80
+  alt: Modern urban building detail
+- title: Studio Calm
+  category: editorial
+  category_label: Editorial
+  image: https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80
+  large_image: https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1800&q=80
+  alt: Minimal office with plants

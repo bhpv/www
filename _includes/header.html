@@ -1,0 +1,15 @@
+<header class="site-header">
+  <nav class="navbar" aria-label="Main navigation">
+    <a class="brand" href="{{ '/' | relative_url }}#top" aria-label="B.H. Photo and Videos home">
+      <span class="brand-mark"></span>
+      <span>{{ site.title }}</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu">Menu</button>
+    <div class="nav-menu" id="navMenu">
+      <a href="{{ '/' | relative_url }}#portfolio">Portfolio</a>
+      <a href="{{ '/' | relative_url }}#series">Series</a>
+      <a href="{{ '/' | relative_url }}#projects">Projects</a>
+      <a class="nav-pill" href="mailto:{{ site.email }}">Contact</a>
+    </div>
+  </nav>
+</header>

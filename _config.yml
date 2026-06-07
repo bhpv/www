@@ -1,0 +1,30 @@
+title: B.H. Photo and Videos
+tagline: Photography and video portfolio
+description: A clean, full-width photography and video portfolio featuring selected visual work, commissioned photography, licensing, and editorial collaborations.
+url: "https://bhpv.ca"
+baseurl: ""
+lang: en_CA
+timezone: America/Toronto
+logo: /assets/img/logo.png
+email: hello@example.com
+
+author:
+  name: B.H. Photo and Videos
+  url: https://bhpv.ca
+
+social:
+  name: B.H. Photo and Videos
+  links:
+    - https://bhpv.ca
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
