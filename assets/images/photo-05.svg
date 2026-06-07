@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1550" viewBox="0 0 1200 1550">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#111827"/>
+<stop offset="100%" stop-color="#6b7280"/>
+</linearGradient>
+</defs>
+<rect width="1200" height="1550" fill="url(#g)"/>
+<circle cx="936" cy="372" r="144" fill="rgba(255,255,255,.38)"/>
+<path d="M0 1209 C 300 899, 576 1426, 1200 1008 L 1200 1550 L 0 1550 Z" fill="rgba(0,0,0,.18)"/>
+<text x="32" y="1516" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">City Night</text>
+</svg>

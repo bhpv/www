@@ -1,8 +1,24 @@
-
 title: B.H. Photo and Videos
-description: Photography and videography portfolio
-url: https://bhpv.ca
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+description: Photography and videography portfolio by B.H. Photo and Videos.
+url: "https://bhpv.ca"
+baseurl: ""
+lang: en_CA
 logo: /assets/images/logo.png
+
+author:
+  name: B.H. Photo and Videos
+  email: hello@example.com
+
+social:
+  name: B.H. Photo and Videos
+  links:
+    - https://bhpv.ca
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

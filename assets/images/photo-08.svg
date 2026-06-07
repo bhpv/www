@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#92400e"/>
+<stop offset="100%" stop-color="#fde68a"/>
+</linearGradient>
+</defs>
+<rect width="1200" height="1000" fill="url(#g)"/>
+<circle cx="936" cy="240" r="120" fill="rgba(255,255,255,.38)"/>
+<path d="M0 780 C 300 580, 576 920, 1200 650 L 1200 1000 L 0 1000 Z" fill="rgba(0,0,0,.18)"/>
+<text x="32" y="966" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Golden Street</text>
+</svg>

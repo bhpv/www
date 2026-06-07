@@ -1,69 +1,41 @@
 ---
 layout: default
-title: B.H. Photo and Videos
-description: A clean, full-width photography and video portfolio for commissioned photography, licensing, and editorial collaborations.
-permalink: /
+title: Home
+description: Full-width photography and videography portfolio for B.H. Photo and Videos.
 ---
 
-<main id="top">
-  <section class="intro" aria-labelledby="intro-title">
-    <div>
-      <p class="eyebrow">Photography & Video Portfolio</p>
-      <h1 id="intro-title">Full-width visual stories for places, people, and quiet details.</h1>
-    </div>
-    <p class="intro-copy">A minimal, image-first portfolio layout inspired by large photo communities and gallery browsing. Built to keep the work front and centre.</p>
-  </section>
-
-  <section class="availability" id="projects" aria-label="Availability for projects">
-    <div>
-      <h2>Available for projects</h2>
-      <p>Commissioned photography, licensing, and editorial collaborations.</p>
-    </div>
-    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-  </section>
-
-  <section class="toolbar" aria-label="Portfolio controls">
-    <div>
-      <h2 id="portfolio">Portfolio</h2>
-      <p>Browse selected work by category.</p>
-    </div>
-    <div class="filters" aria-label="Filter photos">
-      <button class="filter active" type="button" data-filter="all">All</button>
-      <button class="filter" type="button" data-filter="travel">Travel</button>
-      <button class="filter" type="button" data-filter="street">Street</button>
-      <button class="filter" type="button" data-filter="nature">Nature</button>
-      <button class="filter" type="button" data-filter="editorial">Editorial</button>
-    </div>
-  </section>
-
-  <section class="masonry" aria-label="Photography and video portfolio masonry grid">
-    {% for photo in site.data.photos %}
-    <article class="photo-card" data-category="{{ photo.category }}">
-      <button class="photo-button" type="button" aria-label="View {{ photo.title }} larger" data-large="{{ photo.large_image }}">
-        <img src="{{ photo.image }}" alt="{{ photo.alt }}">
-        <div><strong>{{ photo.title }}</strong><span>{{ photo.category_label }}</span></div>
-      </button>
-    </article>
-    {% endfor %}
-  </section>
-
-  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Expanded photograph" hidden>
-    <button class="lightbox-close" type="button" aria-label="Close expanded photograph">×</button>
-    <figure>
-      <img src="" alt="">
-      <figcaption>
-        <strong></strong>
-        <span></span>
-      </figcaption>
-    </figure>
+<section class="intro">
+  <div>
+    <p class="eyebrow">Photography & Video Portfolio</p>
+    <h1>Visual stories across travel, places, people, and atmosphere.</h1>
   </div>
+  <p class="intro-copy">A clean, full-width portfolio for photography, video, licensing, editorial work, and commissioned projects.</p>
+</section>
 
-  <section class="series" id="series" aria-labelledby="series-title">
-    <h2 id="series-title">Featured series</h2>
-    <div class="series-grid">
-      <a href="#portfolio"><span>01</span><strong>Urban Light</strong><em>Street compositions and architectural fragments.</em></a>
-      <a href="#portfolio"><span>02</span><strong>Open Roads</strong><em>Travel scenes built around movement and distance.</em></a>
-      <a href="#portfolio"><span>03</span><strong>Natural Quiet</strong><em>Landscapes, forests, shorelines, and soft detail.</em></a>
-    </div>
-  </section>
-</main>
+<section class="contact-strip" id="projects">
+  <div>
+    <p class="eyebrow">Available for projects</p>
+    <h2>Commissioned photography, licensing, and editorial collaborations.</h2>
+  </div>
+  <a href="mailto:hello@example.com">hello@example.com</a>
+</section>
+
+<section class="portfolio-section" id="portfolio" aria-label="Photography portfolio">
+  <div class="masonry-grid">
+    {% for photo in site.data.photos %}
+      <button class="photo-card" type="button" data-full="{{ photo.image | relative_url }}" data-title="{{ photo.title }}" data-category="{{ photo.category }}">
+        <img src="{{ photo.image | relative_url }}" alt="{{ photo.title }}">
+        <span class="photo-meta">
+          <strong>{{ photo.title }}</strong>
+          <small>{{ photo.category }}</small>
+        </span>
+      </button>
+    {% endfor %}
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+  <img src="" alt="">
+  <div class="lightbox-caption"></div>
+</div>

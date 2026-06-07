@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1050" viewBox="0 0 1200 1050">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#0f766e"/>
+<stop offset="100%" stop-color="#a7f3d0"/>
+</linearGradient>
+</defs>
+<rect width="1200" height="1050" fill="url(#g)"/>
+<circle cx="936" cy="252" r="126" fill="rgba(255,255,255,.38)"/>
+<path d="M0 819 C 300 609, 576 966, 1200 682 L 1200 1050 L 0 1050 Z" fill="rgba(0,0,0,.18)"/>
+<text x="32" y="1016" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Green Hour</text>
+</svg>

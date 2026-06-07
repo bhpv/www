@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1650" viewBox="0 0 1200 1650">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#334155"/>
+<stop offset="100%" stop-color="#f8fafc"/>
+</linearGradient>
+</defs>
+<rect width="1200" height="1650" fill="url(#g)"/>
+<circle cx="936" cy="396" r="144" fill="rgba(255,255,255,.38)"/>
+<path d="M0 1287 C 300 957, 576 1518, 1200 1072 L 1200 1650 L 0 1650 Z" fill="rgba(0,0,0,.18)"/>
+<text x="32" y="1616" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Mountain Air</text>
+</svg>

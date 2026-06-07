@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1450" viewBox="0 0 1200 1450">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#0c4a6e"/>
+<stop offset="100%" stop-color="#bae6fd"/>
+</linearGradient>
+</defs>
+<rect width="1200" height="1450" fill="url(#g)"/>
+<circle cx="936" cy="348" r="144" fill="rgba(255,255,255,.38)"/>
+<path d="M0 1131 C 300 841, 576 1334, 1200 942 L 1200 1450 L 0 1450 Z" fill="rgba(0,0,0,.18)"/>
+<text x="32" y="1416" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Blue Distance</text>
+</svg>
